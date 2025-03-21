@@ -4,18 +4,19 @@ package com.zlogger.practical_rp_producer.model;
 import org.springframework.data.annotation.Id;
 
 
-public class Candidate {
+public class Candidate{
+
 
     @Id
-    private int id;
+    private Integer id;
     private String name;
     private String forname;
     private String email;
     private String jobTitle;
     private String jobDescription;
 
-    public Candidate(int id, String name, String forname, String email, String jobTitle, String jobDescription) {
-        this.id = id;
+    public Candidate(String name, String forname, String email, String jobTitle, String jobDescription) {
+
         this.name = name;
         this.forname = forname;
         this.email = email;
@@ -23,11 +24,11 @@ public class Candidate {
         this.jobDescription = jobDescription;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

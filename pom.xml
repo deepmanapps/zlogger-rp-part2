@@ -14,18 +14,6 @@
 	<name>practical-rp-producer</name>
 	<description>Demo reactive programming project</description>
 	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

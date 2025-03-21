@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS candidate (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(255), forname VARCHAR(255), email VARCHAR(255),job_title VARCHAR(255),job_description VARCHAR(255), PRIMARY KEY (id));
