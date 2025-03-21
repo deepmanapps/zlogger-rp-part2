@@ -15,6 +15,14 @@ public class Candidate{
     private String jobTitle;
     private String jobDescription;
 
+    /*
+    *  TODO Add static factory method for further use
+    * */
+    public static Candidate populateCandidate(String name,String forename){
+
+        return new Candidate(null,name,forename,null,null);
+    };
+
     public Candidate(String name, String forname, String email, String jobTitle, String jobDescription) {
 
         this.name = name;
